@@ -1,0 +1,52 @@
+flarum-messages:
+    admin:
+        permissions:
+            delete_own_messages_label: 'حذف پیام‌های خودتان'
+            send_messages_label: 'Send private messages'
+    email:
+        message_received:
+            html:
+                body: '{user_display_name} برای شما فرستاد یک [new message]({url}).'
+            plain:
+                body: '{user\_display\_name} یک پیام جدید برای شما ارسال کرد.'
+            subject: '{user\_display\_name} برای شما پیامی ارسال کرد.'
+    forum:
+        composer:
+            discard_confirmation: 'پیام شما ارسال نشده است. آیا مطمئن هستید که می‌خواهید آن را لغو کنید؟'
+            placeholder: 'نوشتن پیام...'
+        dialog_list:
+            view_all: 'مشاهده همه پیام‌ها'
+        dialog_section:
+            back_label: بازگشت
+            cannot_reply_text: 'این کاربر نمی‌تواند پاسخ دهد'
+            controls_toggle_label: 'اقدامات کنترلی کادر محاوره‌ای'
+            details_modal:
+                created_at: 'تاریخ ایجاد'
+                title: 'جزئیات گفتگو'
+        index_sort:
+            newest_button: جدیدترین
+            oldest_button: قدیمی‌ترین
+        message_controls:
+            delete_confirmation: 'آیا مطمئن هستید که می‌خواهید این پیام را حذف کنید؟ این کار قابل بازگشت نیست.'
+        messages_page:
+            cannot_send_message_button: 'نمی‌توان پیام ارسال کرد.'
+            empty_text: 'پیام جدیدی وجود ندارد.'
+            hero:
+                subtitle: 'گفت‌وگوهای خصوصی شما با کاربران دیگر'
+            mark_all_as_read_tooltip: 'علامت‌گذاری همه به‌عنوان خوانده‌شده'
+            send_message_button: 'ارسال پیام'
+            stream:
+                load_next_button: 'بارگذاری پیام‌های بعدی'
+                load_previous_button: 'بارگذاری پیام‌های قبلی'
+                start_of_the_conversation: 'شروع گفتگو'
+        notifications:
+            message_received_text: 'اعلان دریافت پیام از {user}'
+        recipient_selection_modal:
+            title: 'گیرندگان این پیام را انتخاب کنید'
+        settings:
+            notify_message_received_label: 'کسی برای من پیام می‌فرستد'
+        user_controls:
+            cannot_reply_text: 'این کاربر نمی‌تواند پاسخ دهد'
+    lib:
+        dialog:
+            title: 'در حال پیام‌رسانی به {username}'
