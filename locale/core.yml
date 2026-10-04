@@ -5,10 +5,10 @@
 core:
   admin:
     add_extension:
-      developer_text: 'If you''re a developer, you can <a>read the docs</a> and have a go at building your own extensions.'
-      install_text: 'In the meantime, you can look for extensions at the <a>Flarum Community site</a> and install them manually using Composer.'
-      temporary_text: 'One day in the not-too-distant future, this dialog will allow you to add an extension to your forum with ease. We''re building an ecosystem as we speak!'
-      title: 'Add Extension'
+      developer_text: 'اگر توسعه‌دهنده هستید، می‌توانید <a>مستندات را بخوانید</a> و افزونهٔ خودتان را بسازید.'
+      install_text: 'در این میان، می‌توانید در <a>جامعهٔ Flarum</a> افزونه‌ها را پیدا کرده و با Composer به‌صورت دستی نصب کنید.'
+      temporary_text: 'به‌زودی این پنجره به شما اجازه می‌دهد افزونه‌ای را به‌سادگی به انجمن خود اضافه کنید. ما در حال ساخت این اکوسیستم هستیم!'
+      title: 'افزودن افزونه'
     announcements:
       about: 'جدیدترین اخبار و اطلاعیه‌های دریافت‌شده از جامعهٔ رسمی فلاروم در discuss.flarum.org.'
       comments_label: '{count, plural, one {# نظر} other {# نظرات}}'
@@ -64,7 +64,7 @@ core:
       forum_title_heading: 'عنوان انجمن'
       home_page_heading: 'صفحهٔ اصلی'
       home_page_text: 'صفحه‌ای را انتخاب کنید که کاربران هنگام بازدید از انجمن شما، ابتدا می‌بینند.'
-      saved_message: 'Your changes were saved.'
+      saved_message: 'تغییرات شما ذخیره شد.'
       show_language_selector_label: 'نمایش انتخابگر زبان'
       slug_driver_heading: 'درایور اسلاگ : {model}'
       slug_driver_text: 'یک راه‌انداز برای نامک‌سازی این مدل انتخاب کنید.'
@@ -82,7 +82,7 @@ core:
       use_random_password: 'ایجاد رمز عبور تصادفی'
       username_placeholder: '=> core.ref.username'
     dashboard:
-      clear_cache_button: 'پاک کردن cache'
+      clear_cache_button: 'پاک کردن کش'
       description: 'انجمن شما در یک نگاه.'
       info_button: 'اطلاعات سامانه'
       info_modal:
@@ -130,15 +130,15 @@ core:
       submit_button: '=> core.ref.save_changes'
       title: '=> core.ref.custom_header_title'
     email:
-      account_heading: 'SMTP Account'
+      account_heading: 'حساب SMTP'
       addresses_heading: 'آدرس ها'
       description: 'درایور ، تنظیمات و آدرس‌هایی را که انجمن شما برای ارسال ایمیل استفاده می‌کند ، پیکربندی کنید .'
       driver_heading: 'یک درایور انتخاب کنید'
       driver_label: درایور
-      encryption_label: Encryption
+      encryption_label: 'رمزنگاری'
       from_label: 'ارسال کننده'
       heading: '=> core.ref.email'
-      host_label: Host
+      host_label: 'میزبان'
       mail_encryption_label: رمزنگاری
       mail_host_label: هاست
       mail_mailgun_domain_label: دامنه
@@ -150,15 +150,15 @@ core:
       mailgun_heading: 'تنظیمات میل گان'
       not_sending_message: 'Flarum در حال حاضر ایمیل ارسال نمی کند . این می تواند به دلیل درایور انتخاب شده یا خطا در پیکربندی آن باشد .'
       password_label: '=> core.ref.password'
-      port_label: Port
+      port_label: 'پورت'
       send_test_mail_button: ارسال
       send_test_mail_heading: 'ارسال ایمیل تست'
       send_test_mail_success: 'ایمیل تستی با موفقیت ارسال شد !'
       send_test_mail_text: 'این مورد یک ایمیل با استفاده از پیکربندی بالا به ایمیل شما ، {email} ارسال می کند .'
-      server_heading: 'SMTP Server'
+      server_heading: 'سرور SMTP'
       smtp_heading: 'تنظیمات SMTP'
       submit_button: '=> core.ref.save_changes'
-      text: 'Configure the SMTP settings and addresses your forum will use to send email.'
+      text: 'تنظیمات SMTP و آدرس‌هایی را که انجمن شما برای ارسال ایمیل استفاده می‌کند، پیکربندی کنید.'
       title: '=> core.ref.email'
       username_label: '=> core.ref.username'
     extension:
@@ -190,9 +190,9 @@ core:
       replaced: 'جایگزین شد'
       uninstall_button: حذف
     extensions:
-      add_button: 'Add Extension'
+      add_button: 'افزودن افزونه'
       settings_button: '=> core.ref.settings'
-      uninstall_button: Uninstall
+      uninstall_button: 'حذف نصب'
     header:
       get_help: 'کمک بگیرید'
       log_out_button: '=> core.ref.log_out'
@@ -200,7 +200,7 @@ core:
       title: 'لطفا صبر کنید ...'
     nav:
       appearance_button: ظاهر
-      appearance_text: 'Customize your forum''s colors, logos, and other variables.'
+      appearance_text: 'رنگ‌ها، نشان‌واره و سایر تنظیمات ظاهری انجمن خود را شخصی‌سازی کنید.'
       appearance_title: '=> core.admin.appearance.description'
       basics_button: 'تنظیمات اصلی'
       basics_text: 'عنوان، زبان و دیگر تنظیمات مرتبط انجمن.'
@@ -262,9 +262,9 @@ core:
       view_discussions_label: 'دیدن مباحث'
       view_forum_label: 'مشاهده انجمن (بحث ها و کاربران)'
       view_hidden_groups_label: 'نشان های گروه پنهان را مشاهده کنید'
-      view_last_seen_at_label: 'View user last seen time'
+      view_last_seen_at_label: 'مشاهدهٔ زمان آخرین فعالیت کاربر'
       view_post_ips_label: 'نمایش آدرس IP نوشته‌ها'
-      view_user_list_label: 'View user list'
+      view_user_list_label: 'مشاهدهٔ فهرست کاربران'
     permissions_controls:
       allow_indefinitely_button: 'برای همیشه'
       allow_never_button: '=> core.ref.never'
@@ -321,7 +321,7 @@ core:
       total_users: 'کل کاربران: {count}'
   api:
     invalid_filter_type:
-      must_be_numeric_message: '{filter} بایدفقط شامل اعداد باشد.'
+      must_be_numeric_message: '{filter} باید فقط شامل اعداد باشد.'
       must_not_be_array_message: '{filter} نمیتواند شامل آرایه باشد.'
       must_not_be_multidimensional_array_message: '{filter} نمی تواند شامل آرایه های چند بعدی باشد.'
     invalid_username_message: 'نام کاربری فقط می‌تواند شامل حروف، اعداد، و خطوط تیره باشد.'
@@ -353,7 +353,7 @@ core:
       title: '=> core.ref.change_email'
     change_password:
       send_button: 'ارسال مجدد ایمیل بازیابی رمزعبور'
-      text: 'روی دکمه زیر کلیک کنیدتا لینک تغییر رمزعبور برایتان ارسال شود.'
+      text: 'روی دکمهٔ زیر کلیک کنید تا پیوند تغییر رمز عبور برایتان ارسال شود.'
       title: '=> core.ref.change_password'
     composer:
       close_tooltip: بستن
@@ -649,7 +649,7 @@ core:
     all_discussions: 'همه مباحث'
     change_email: 'ویرایش ایمیل'
     change_password: 'ویرایش رمزعبور'
-    color: Color
+    color: رنگ
     confirm_email: 'تایید ایمیل'
     confirm_password: 'تائید رمزعبور'
     confirmation_email_sent: 'ایمیلی در خصوص تاییدیه حساب کاربری به {email} ارسال گردید. اگر به‌زودی آن را دریافت ننمودید پوشه هرزنامه‌های خود را بررسی کنید.'
@@ -715,8 +715,8 @@ core:
       text: 'برای تایید ایمیل حساب خود روی دکمه زیر کلیک کنید.'
       title: '=> core.ref.confirm_email'
     content:
-      javascript_disabled_message: 'این وب‌سایت در مرورگرهای جدید، و با جاوا اسکریپت فعال به بهترین شکل نمایش میابد.'
-      load_error_message: 'هنگام تلاش برای بارگیری نسخه کامل این سایت، مشکلی پیش آمد. سعی کنید این صفحه رابا رفرش و پاک کردن کش بازخوانی کنید تا خطا برطرف شود.'
+      javascript_disabled_message: 'این وب‌سایت در مرورگرهای جدید و با فعال‌بودن جاوااسکریپت بهترین نمایش را دارد.'
+      load_error_message: 'هنگام بارگذاری نسخهٔ کامل این سایت مشکلی پیش آمد. صفحه را با رفرش و پاک‌کردن کش دوباره بارگذاری کنید تا خطا برطرف شود.'
       loading_text: '=> core.ref.loading'
     discussion:
       next_page_button: '=> core.ref.next_page'
